@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Runtime files
+*.log
+*.pid
+*.tmp
+logs/
+
+# Generated showcase artifacts
+src/main/resources/static/
+scripts/generate_report.py
+
+# Local documents
+*.doc
+*.docx
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+package com.example.labdesign.enums;
+
+public enum EventType {
+    BORROW_SUBMITTED,
+    BORROW_APPROVED,
+    BORROW_REJECTED,
+    EQUIPMENT_RETURNED,
+    REPAIR_SUBMITTED,
+    REPAIR_STARTED,
+    REPAIR_COMPLETED,
+    EQUIPMENT_SCRAPPED
+}
